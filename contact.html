@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="London Mountain Biker" content="Mountain Biking Blog for London">
+    	<meta name="London, Mountain Biking, Cycling, Adventure, Travel, Contact">
+	
+		<title>LMB Contact</title>
+		
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Unkempt">
+		<link rel="stylesheet" href="css/style.css">
+		
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	</head>
+
+	<body>
+
+		<!-- BEGIN header -->
+		<header>
+
+			<!-- BEGIN #banner-background image -->
+			<div id="banner">
+				<a href="index.html"><img src="images/london_banner.png" alt="London Mountain Biker" /></a>
+			</div><!-- END #banner -->
+
+			<!-- BEGIN nav bar -->
+			<nav>
+				<!-- BEGIN container within nav bar to center it -->
+				<div class="container clearfix">
+
+					<!-- BEGIN #socialmedia sprite -->
+					<div id="socialmedia">
+						<ul>
+							<li class="linkedin"><a href="#">LinkedIn</a></li>
+							<li class="twitter"><a href="#">Twitter</a></li>
+							<li class="facebook"><a href="#">Facebook</a></li>
+							<li class="rss"><a href="#">RSS</a></li>
+						</ul>
+					</div><!-- END #socialmedia sprite -->
+
+					<ul>
+						<li><a href="index.html">home</a></li>
+						<li><a href="about.html">about</a></li>
+						<li><a href="training.html">training</a></li>
+						<li><a href="events.html">events</a></li>
+						<li><a class="active" href="contact.html">contact</a></li>
+					</ul>
+
+				</div><!-- END container within nav bar -->
+
+			</nav><!-- END nav bar -->
+
+		</header><!-- END header -->
+
+		<!-- BEGIN main content container using 960 grid -->
+		<div class="container clearfix">
+
+			<!-- BEGIN article -->
+			<article class="clearfix">
+
+				<h1>Get in touch</h1>
+
+				<label for="name">Name</label><br />
+				<input type="text" name="name" id="name" class="userinfo" /><br />
+				
+				<label for="email">Email</label><br />
+				<input type="email" name="email" id="email" class="userinfo" /><br />
+				
+				<h4>I use my bike mostly for:</h4>
+				<input type="checkbox" name="riding" id="mtb" value="mountainbiking" />
+				<label for="mtb">Mountain biking</label><br />
+				
+				<input type="checkbox" name="riding" id="road" value="roadriding" />
+				<label for="road">Road riding</label><br />
+				
+				<input type="checkbox" name="riding" id="com" value="commuting" />
+				<label for="com">Commuting</label><br />
+				
+				<input type="checkbox" name="riding" id="causal" value="causalriding" />
+				<label for="causal">Causal riding</label><br />
+				
+				<input type="checkbox" name="riding" id="fit" value="keepingfit" />
+				<label for="fit">Keeping fit</label><br />
+				
+				<input type="checkbox" name="riding" id="race" value="racing" />
+				<label for="race">Racing</label><br />
+
+				<h4>My ride</h4>
+				<select name="bike">
+					<option value="-1">Choose one...</option>
+					<option value="trek">Trek</option>
+					<option value="giant">Giant</option>
+					<option value="specialized">Specialized</option>
+					<option value="cervelo">Cervelo</option>
+					<option value="dontknow">Dont know?</option>
+					<option value="other">Other</option>
+				</select><br />
+
+				<label for="otherbike">Specify if other</label>
+				<input type="text" name="otherbike" id="otherbike" class="userinfo" />
+				<br />
+				<textarea name="message" cols="60" rows="12">Write message here...</textarea><br />
+
+				<input type="submit" name="submit" value="Send" id="button" />
+
+			</article><!-- END article -->
+
+			<!-- BEGIN aside boxes -->
+			<aside class="clearfix">
+
+				<div>
+					<a href="#"><h3>Burning Rubber</h3></a>
+					<a href="#"><img src="images/map_1.png" alt="Map" width=206 height=172 /></a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</p>
+				</div>
+
+				<div>
+					<a href="#"><h3>Whats Hot</h3></a>
+					<a href="#"><img src="images/PygaOneTen29.jpg" alt="Gear" width=206 height=172 /></a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</p>
+				</div>
+
+				<div>
+					<a href="#"><h3>Conquer</h3></a>
+					<a href="#"><img src="images/conquer.jpg" alt="Tips" width=206 height=172 /></a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</p>
+				</div>
+
+			</aside><!-- END aside boxes -->
+
+		</div><!-- END main container --> 
+
+		<!-- BEGIN footer --> 
+		<footer>
+
+			<div id="footone"></div>
+
+			<div id="foottwo">
+				<div class="container_12 clearfix">
+					&copy; 2013 <a href="#">Dave Morison</a>
+				</div>
+			</div>
+
+		</footer><!-- END footer -->
+
+	</body>
+</html>
